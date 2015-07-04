@@ -38,3 +38,11 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'bundler'
+
+group :development, :test do
+  gem 'dotenv-rails'
+end
+
+gem 'tzinfo-data'
+gem 'validates_formatting_of'
